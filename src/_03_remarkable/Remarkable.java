@@ -1,18 +1,37 @@
 package _03_remarkable;
-//    Copyright (c) The League of Amazing Programmers 2013-2019
-//    Level 0
-
 import javax.swing.JOptionPane;
 
 public class Remarkable {
-public static void main(String[] args) {
 
-		// 1. Save something remarkable about each person in a variable.
+	public static void main(String[] args) {
 
-		// 2. Ask the user to enter a name. Store their answer in a variable.
+		String name = JOptionPane
+				.showInputDialog("What's Your Name?? (Sorry, Ima Stalker...) PLEASE capatalize the beggining letter ");
 
-		// 3. In a pop-up, tell the user what is remarkable about that person. 
+		if (name.equals("Ameer")) {
+			JOptionPane.showMessageDialog(null,
+					"Aeeeeeeeeey, Meeru!(#stalkerAGAIN) You're the best bro on the planet! BTW, your freckles are soooooooooooooooo frickin'");
+		}
+		if (name.equals("Colin")) {
+			JOptionPane.showMessageDialog(null,
+					"Wasssssup Colin!(#stalkerAGAIN) I'm sooo glad that you're my bros bff. BTW, your freckles are soooooooooooooooo frickin'");
+		}
+		if (name.equals("Ameer")) {
+			JOptionPane.showMessageDialog(null,
+					"Happy Birthday Ameer!(#stalkerAGAIN) You're the best bro on the planet! BTW, your freckles are soooooooooooooooo frickin'");
+		}
+		if (name.equals("Ameer")) {
+			JOptionPane.showMessageDialog(null,
+					"Happy Birthday Ameer!(#stalkerAGAIN) You're the best bro on the planet! BTW, your freckles are soooooooooooooooo frickin'");
+		}
+		if (name.equals("Ameer")) {
+		}
+		if (name.equals("Ms. Jackie")) {
+			JOptionPane.showMessageDialog(null,
+					"YO! Ms. Jackie! (#stalkerAGAIN) Your an awesome 'coder.' YOU'RE AWESOME!  You're the best teacher on the planet! '");
+
+		}
 
 	}
-}
 
+}
